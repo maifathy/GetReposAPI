@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "package.js",
   "version": "1.0.0",
   "description": "get the last created 100 repos with details",
