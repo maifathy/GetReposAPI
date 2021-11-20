@@ -1,8 +1,9 @@
-var express = require('express');
+import express from 'express';
+import routes from './api/routes.js';
+
 var app = express();
 var port = process.env.PORT || 3000;
-var routes = require('./api/routes');
 
 routes(app);
 
-app.listen(port,function(){ console.log('Server started on port: ' + port); });
+app.listen(port, function () { console.log(`Server started on port: ${port}`); });
