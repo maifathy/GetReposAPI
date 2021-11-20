@@ -1,8 +1,8 @@
 import axios from 'axios';
-import api from './utils/helpers';
+import api from '../utils/helpers.js';
 
 const repos = {
-  getRepos: function (req, res) {
+  get: function (req, res) {
       axios.get(api)
       .then(function (response) {
         res.send(response);
