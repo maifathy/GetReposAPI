@@ -1,8 +1,8 @@
 import express from 'express';
 import routes from './api/routes.js';
 
-var app = express();
-var port = process.env.PORT || 3000;
+const app = express();
+const port = process.env.PORT || 3000;
 
 routes(app);
 
