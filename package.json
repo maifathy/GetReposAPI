@@ -24,7 +24,7 @@
     "request": "^2.65.0"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2"
   },
@@ -34,7 +34,7 @@
       "node": true,
       "es2021": true
     },
-    "extends": "eslint:all",
+    "extends": "eslint:recommended",
     "parserOptions": {
       "ecmaVersion": 11,
       "sourceType": "module"
