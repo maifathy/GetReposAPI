@@ -30,7 +30,7 @@ $ npm start
 To launch this project, in your npm console:
 
 ```
-node server.js
+& node server.js
 ```
 In your browser, go to: http://localhost:3000/repo/language
 
