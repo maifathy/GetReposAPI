@@ -12,7 +12,7 @@
  The project focuses on the last repos ranked.
 
 ## Technologies
- * npm 8.1.3
+ * npm v8.1.3
  * node v16.13.0
  * express v4.17.1
  * axios v0.24.0
